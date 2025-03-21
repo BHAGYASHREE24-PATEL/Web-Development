@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design A Card Using HTML and CSS</title>
+    <style>
+        *{
+            margin:0;
+            padding: 10px;
+        }
+        body{
+            background-color: rgb(192, 222, 244);
+        }
+        .card{
+          background-color: aliceblue;
+          width: 55vw;
+          height:90vh;
+          border: 2px solid black;
+          border-radius:5%;
+        }
+        .image{
+            padding:5px;
+            
+        }
+        .image img{
+            border-radius:10%;
+        }
+        .content{
+            padding: 5px 13px;
+        }
+        .content p{
+            font-size:17px;
+            text-align:left;
+        }
+        .content h2{
+            font-size:30px;
+        }
+        .capsules{
+            padding:0px 9px 0px 28px ;
+        }
+        .capsules span{
+            border: 2px solid rgb(78, 156, 99);
+            font-size: 20px;
+            padding:0px 6px;
+            border-radius:9px;
+        }
+        .button{
+           text-align: center;
+        }
+        .button button{
+           padding:7px 13px 7px 12px;
+           border-radius:14px;
+           background-color: rgb(158, 231, 158);
+           color: green;
+           font-size:12px;
+           border:none;
+        }
+        .button button:hover{
+            color: green;
+           background-color: rgb(172, 242, 209);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+         <div class="image">
+            <img width="300vw" src="nature.jpg">
+         </div>
+
+         <div class="capsules">
+         <span>Nature</span>
+         <span>Lake</span>
+         </div>
+
+         <div class="content">
+            <h2>Nature</h2>
+
+            <p>Nature can refer to the general realm of living beings, and in some cases to the processes associated with inanimate objects—the way that particular types of things exist and change of their own accord, such as the weather and geology of the Earth.</p>
+         </div>
+         <div class="button">
+            <button>Read More</button>
+         </div>
+    </div>
+
+</body>
+</html>

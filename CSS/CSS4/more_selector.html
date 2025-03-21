@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS More On Selector</title>
+    <style>
+        .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+     /* .box:first-child{
+        background-color: red;
+     } */
+     /* .box::first-line{
+        color: yellow;
+     } */
+     
+     [data-color="primary"] ,.box{
+        margin-top: 45px;
+        padding: 45px;
+     }
+
+     .box:nth-child(even){
+        background-color: aqua;
+     }
+     .boxes::before{
+        content:"My Name Is Bhagyashree Patel";
+        color: blue;
+     }
+     .boxes::after{
+        content:"My Name Is Bhagyashree Patel";
+        color: brown;
+     }
+
+     ::selection{
+        color: rgb(239, 235, 237);
+        background-color: black;
+     }
+     .box::first-letter{
+        color: rgb(228, 119, 9);
+        font-size: 34px;
+     }
+     input::placeholder{
+        color: blueviolet;
+     }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hey I am a Box1</div>
+        <div class="box">Hey I am a Box2</div>
+        <div class="box">Hey I am a Box3</div>
+        <input type="text" placeholder="Enter Your Name">
+    </div>
+</body>
+</html>

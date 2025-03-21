@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal, External CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Internal CSS Using Style Tag Within HTML -->
+     <style>
+       div{
+        color:white;
+        background-color: black;
+       }
+     </style>
+</head>
+<body>
+    <!--Inline CSS Using Style Tag Within Element -->
+    <h3> Inline CSS-</h3>
+    <h3 style="color:white; background-color:purple;">HTML</h3>
+
+    <h3 style="color:white; background-color:purple;">CSS</h3>
+
+    <h3>Internal CSS-</h3>
+    <div>HTML is the language of the web, used to create websites.</div>
+
+    <div>CSS is used to provide styling to HTML elements, making web pages visually appealing and user-friendly.</div>
+    
+    <!--External CSS Using Style Tag Within CSS file -->
+    <h3>External CSS-</h3>
+    <div id="externalcss1" class="ec">
+       <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div id="externalcss2" class="ec">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+</body>
+</html>

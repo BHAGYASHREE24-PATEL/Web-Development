@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector CSS</title>
+    <style>
+      /* Class Selector */
+      .CS{
+        background-color: blueviolet;
+      }
+      /* Id Selector */
+      #IS{
+        color:black;
+      }
+      #IS1{
+        color: white;
+      }
+
+      /* Child Selector */
+      div > p{
+        color: aliceblue;
+        background-color: blue;
+      }
+
+      /* Descendent Selector */
+      div p{
+        color: aliceblue;
+        background-color: black;
+      }
+
+      /* Universal Selector */
+      * {
+       margin: 0;
+       padding: 0;
+      }
+
+      /* Pseudo Selector */
+      a:visited{
+        color: brown;
+        background-color: blue;
+      }
+
+      a:link{
+        color: rgb(30, 139, 234);
+      }
+
+      a:active{
+        background-color: red;
+      }
+
+      a:hover{
+        background-color: yellow;
+      }
+    
+      p:first-child{
+        background-color: aqua;
+      }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="IS" class="CS">
+      My Name Is Bhagyashree Patel.
+    </div>
+    <div id="IS1" class="CS">
+      I am From Sundargarh, Odisha.
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui possimus cumque dolores assumenda perferendis fuga numquam expedita animi fugit non?</p>
+    </div>
+
+    <div>
+        <article>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, tempore. Error cumque ipsam eligendi fuga, qui ratione possimus impedit eos quos tempora ipsa facere dolor deleniti vero officia sapiente aut.</p>
+        </article>
+    </div>
+    <div>
+    <a href="https://www.Google.com">Open Google</a>
+    <a href="https://www.Instagram.com">Open Instagram</a>
+    </div>
+
+    <div class="one">
+      <p>Shree</p>
+      <P>Bhagyashree Patel</P>
+    </div>
+</body>
+</html>

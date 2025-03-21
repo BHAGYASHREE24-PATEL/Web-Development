@@ -1,0 +1,58 @@
+<!-- Form Tag -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+ </head>
+ <body>
+    <h3>Student Registration Form</h3>
+    <form action="post">
+    <div>
+        <label for="uname">Enter Your Name: </label>
+        <input type="text" id="uname" name="fathername" placeholder="Enter your name">
+    </div>
+    <div>
+        <label for="fname">Enter Your Father's Name: </label>
+        <input type="text" id="fname" name="username" placeholder="Enter your Father's name">
+    </div>
+    <div>
+        <label for="mname">Enter Your Mother's Name: </label>
+        <input type="text" id="mname" name="mothername" placeholder="Enter your Mother's name">
+    </div>
+
+    <!-- Radio Button -->
+    <div>
+        <label for="Gander">Gender: </label>
+         <input type="radio" name="Gender" id="Male">
+         <label for="Male">Male</label>
+         <input type="radio" name="Gender" id="Female">
+         <label for="Female">Female</label>
+    </div>   
+
+    <!-- Check Box -->
+     <div>
+        <input type="checkbox" id="Subscribe" value="Yes">
+        <label for="Subscribe">Subscribe My Youtube Channel</label>
+     </div>
+
+     <!-- Text Area -->
+      <div>
+        <label for="tcomment">Comment: </label>
+        <textarea name="text" id="comment" rows="5" cols="30" placeholder="Enter Your Text Here..."></textarea>
+      </div>
+
+    <!-- Drop Box -->
+     <div>
+        <label for="select">Select Your City: </label>
+        <select name="select" id="select">
+            <option value="1">Rourkela</option>
+            <option value="2">Sundargarh</option>
+            <option value="3">Bhubaneswar</option>
+            <option value="4">Sambalpur</option>
+        </select>
+     </div>
+    </form>
+ </body>
+ </html>

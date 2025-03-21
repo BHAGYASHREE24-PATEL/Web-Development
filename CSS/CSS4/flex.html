@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex_Box</title>
+    <style>
+      .container{
+        height:80vh;
+        border: 2px solid red;
+        display: flex;
+        /* justify-content:center; */
+        /* align-items:center; */
+        align-content:flex-start;
+        /* flex-direction:row-reverse; */
+        flex-wrap: wrap;
+        flex-flow:row wrap;
+        /* row-gap:4px;
+        column-gap: 10px; */
+        gap:4px 10px;
+      }
+      .item{
+       /* margin: 4px; */
+       height: 32px;
+       width: 32px;
+       color: white;
+       background-color: blueviolet;
+       border: 2px solid black;
+       /* item Property */
+       order:;
+      }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">5</div>
+            <div class="item">5</div>
+            <div class="item">5</div>
+            <div class="item">5</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+        </div>
+    </main>
+</body>
+</html>
